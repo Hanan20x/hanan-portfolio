@@ -1,0 +1,130 @@
+.section {
+  padding: 90px 0;
+}
+
+.section__header {
+  margin-bottom: 40px;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-green);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.eyebrow--light {
+  color: var(--color-gold);
+}
+
+.section__title {
+  font-size: 32px;
+  font-weight: 800;
+  max-width: 560px;
+}
+
+.section__title--light {
+  color: var(--color-cream);
+}
+
+.section__cta {
+  margin-top: 40px;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+
+.involvement-band {
+  position: relative;
+  background: var(--color-ink);
+  padding: 90px 0;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.involvement-band .container {
+  position: relative;
+  z-index: 1;
+}
+
+.involvement-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+}
+
+.involvement-card {
+  background: rgba(244, 233, 208, 0.05);
+  border: 1px solid rgba(244, 233, 208, 0.12);
+  border-radius: var(--radius-md);
+  padding: 20px;
+}
+
+.involvement-card__photo {
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-sm);
+  background: rgba(244, 233, 208, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.involvement-card__photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.involvement-card__photo span {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: rgba(244, 233, 208, 0.4);
+}
+
+.involvement-card h3 {
+  color: var(--color-cream);
+  font-size: 17px;
+  margin-bottom: 4px;
+}
+
+.involvement-card__role {
+  font-size: 12px;
+  color: var(--color-gold);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.involvement-card__desc {
+  font-size: 13px;
+  color: rgba(244, 233, 208, 0.65);
+}
+
+@media (max-width: 900px) {
+  .featured-grid {
+    grid-template-columns: 1fr;
+  }
+  .involvement-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 540px) {
+  .involvement-grid {
+    grid-template-columns: 1fr;
+  }
+  .section {
+    padding: 60px 0;
+  }
+  .section__title {
+    font-size: 26px;
+  }
+}

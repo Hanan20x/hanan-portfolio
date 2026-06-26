@@ -1,0 +1,105 @@
+.site-bg-circles {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.site-bg__circle {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(1px);
+}
+
+.site-bg__circle--1 {
+  width: 420px;
+  height: 420px;
+  top: -10%;
+  right: -6%;
+  background: radial-gradient(circle at 30% 30%, #4a7a4f, var(--color-green));
+  opacity: 0.16;
+}
+
+.site-bg__circle--2 {
+  width: 320px;
+  height: 320px;
+  top: 18%;
+  left: -8%;
+  background: radial-gradient(circle at 40% 40%, var(--color-gold), var(--color-gold-soft));
+  opacity: 0.2;
+}
+
+.site-bg__circle--3 {
+  width: 260px;
+  height: 260px;
+  top: 36%;
+  right: 18%;
+  background: radial-gradient(circle at 50% 50%, var(--color-cream), transparent 70%);
+  opacity: 0.5;
+}
+
+.site-bg__circle--4 {
+  width: 360px;
+  height: 360px;
+  top: 52%;
+  left: 6%;
+  background: radial-gradient(circle at 35% 35%, var(--color-green), transparent 72%);
+  opacity: 0.14;
+}
+
+.site-bg__circle--5 {
+  width: 300px;
+  height: 300px;
+  top: 68%;
+  right: -8%;
+  background: radial-gradient(circle at 40% 40%, var(--color-gold-soft), transparent 70%);
+  opacity: 0.22;
+}
+
+.site-bg__circle--6 {
+  width: 240px;
+  height: 240px;
+  top: 84%;
+  left: 22%;
+  background: radial-gradient(circle at 45% 45%, var(--color-cream), transparent 70%);
+  opacity: 0.4;
+}
+
+.site-bg__circle--7 {
+  width: 280px;
+  height: 280px;
+  top: 4%;
+  left: 40%;
+  background: radial-gradient(circle at 40% 40%, var(--color-gold), transparent 72%);
+  opacity: 0.16;
+}
+
+.site-bg__circle--8 {
+  width: 340px;
+  height: 340px;
+  top: 100%;
+  right: 28%;
+  background: radial-gradient(circle at 35% 35%, #4a7a4f, transparent 72%);
+  opacity: 0.15;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-bg__circle {
+    animation: none !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .site-bg__circle--1,
+  .site-bg__circle--2,
+  .site-bg__circle--3,
+  .site-bg__circle--4,
+  .site-bg__circle--5,
+  .site-bg__circle--6,
+  .site-bg__circle--7,
+  .site-bg__circle--8 {
+    width: 220px;
+    height: 220px;
+  }
+}

@@ -1,0 +1,35 @@
+.ambient-blobs {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.ambient-blobs__shape {
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  filter: blur(4px);
+}
+
+.ambient-blobs--light .ambient-blobs__shape {
+  background: radial-gradient(circle at 35% 35%, var(--color-green), transparent 70%);
+  opacity: 0.08;
+}
+
+.ambient-blobs--dark .ambient-blobs__shape {
+  background: radial-gradient(circle at 35% 35%, var(--color-gold), transparent 70%);
+  opacity: 0.14;
+}
+
+.ambient-blobs--right .ambient-blobs__shape {
+  top: -10%;
+  right: -8%;
+}
+
+.ambient-blobs--left .ambient-blobs__shape {
+  bottom: -10%;
+  left: -8%;
+}

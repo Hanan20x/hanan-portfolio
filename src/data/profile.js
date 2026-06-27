@@ -204,7 +204,7 @@ export const hackathons = [
   {
     name: "myAI Future Hackathon",
     result: "Creative Marketing Team Member",
-    project: "Promotional design & event coordination",
+    project: "Promoted a national-scale GDG initiative bridging the talent gap between academic theory and the global AI economy.",
   },
   {
     name: "Prompt Rush",

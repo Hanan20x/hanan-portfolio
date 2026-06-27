@@ -164,46 +164,46 @@ export const skillCategories = [
 
 export const involvements = [
   {
-    org: "VHACK Hackathon",
-    role: "AIROST Event Unit Member",
-    description: "Participated in the Varsity Hackathon (VHACK) representing AIROST.",
+    org: "She Plus Tech",
+    role: "Member (June 2026 - Present)",
+    description: "Active member dedicated to fostering community and promoting women in technology.",
+    image: "/involvements/she-plus-tech.jpg",
+  },
+  {
+    org: "The Institution of Engineers, Malaysia (IEM)",
+    role: "Member (December 2025 - Present)",
+    description: "Active member of IEM.",
+    image: null,
+  },
+  {
+    org: "Airost UTM",
+    role: "Event Unit Member (January 2026 - June 2026)",
+    description: "Participated in events like the Varsity Hackathon (VHACK) and served as PIC & Mentor for the RAG For Everyone Workshop.",
     image: "/involvements/vhack-hackathon.jpg",
   },
   {
-    org: "my AI Future Hackathon",
-    role: "GDG Creative Marketing Core Team",
-    description: "Organized and promoted the my AI Future Hackathon as a core marketing team member for GDG on Campus UTM.",
+    org: "Google Developer Groups on Campus (GDG on Campus UTM)",
+    role: "Creative Marketing Core Team Member (December 2025 - May 2026)",
+    description: "Organized and promoted the my AI Future Hackathon and engaged with the Gemini Nexus event.",
     image: "/involvements/my-ai-future.jpg",
   },
   {
-    org: "RAG For Everyone Workshop",
-    role: "AIROST PIC & Mentor",
-    description: "Served as PIC and Mentor for the 'RAG For Everyone' workshop — planned the schedule, briefed the speaker, and built live demo pipelines.",
-    image: "/involvements/rag-workshop.jpg",
+    org: "IndabaXsudan",
+    role: "Public Relations Officer (October 2025 - December 2025)",
+    description: "Maintained community ties supporting Sudanese students and the AI community.",
+    image: null,
   },
   {
-    org: "The Solar Energy Workshop",
-    role: "AIESEC Organizing Committee",
-    description: "Supported The Solar Energy Workshop, drawing on 5 months of experience organizing major events like Echo 7.0 and Leadership Bootcamp 3.0.",
+    org: "AIESEC",
+    role: "Organizing Committee (April 2025 - August 2025)",
+    description: "• Echo 7.0 Project: Supported planning and coordination, assisted with logistics and participant engagement.\n• Leadership Bootcamp 3.0: Coordinated venue arrangements and training materials.\n• Youth Speak Forum 2025: Conducted street interviews and produced creative content.",
     image: "/involvements/solar-energy.jpg",
   },
   {
-    org: "Gemini Nexus",
-    role: "GDG Member",
-    description: "Engaged with the Gemini Nexus: The Agentverse event organized by GDG.",
-    image: "/involvements/gemini-nexus.jpg",
-  },
-  {
     org: "ISS-SUDAN",
-    role: "Head of Technical Support",
-    description: "Led the technical support team for the SUDART event, ensuring seamless operation of all event technologies and sound systems.",
+    role: "Head of Technical Support & Multiple Roles (1 year 2 months)",
+    description: "• Head of Technical Support for SUDART event.\n• Organizer in Techno Coding Competition & Ramadan Iftar.\n• Main performer in Arabic Culture Day.\n• Member of the Academic Committee & Silver Member.",
     image: "/involvements/sudart.jpg",
-  },
-  {
-    org: "She Plus Tech",
-    role: "Member",
-    description: "Active member dedicated to fostering community and promoting women in technology.",
-    image: "/involvements/she-plus-tech.jpg",
   }
 ];
 

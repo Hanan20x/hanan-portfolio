@@ -89,7 +89,7 @@ export const projects = [
     github: "https://github.com/Hanan20x",
     image: "/projects/learnloop/poster.png",
     gallery: [],
-    video: null,
+    video: "/projects/learnloop/demo.mp4",
   },
   {
     id: "speedtrials2d",
@@ -109,7 +109,7 @@ export const projects = [
     github: "https://github.com/Hanan20x",
     image: "/projects/rtse/simulator.jpg",
     gallery: [],
-    video: null,
+    video: "/projects/rtse/demo.mp4",
   },
   {
     id: "dhl-incident-reporting",
@@ -130,15 +130,27 @@ export const projects = [
     github: "https://github.com/Hanan20x",
     image: "/projects/dhl/landing.png",
     gallery: ["/projects/dhl/reporting.png"],
-    video: null,
+    video: "/projects/dhl/demo.mp4",
   },
 ];
 
-export const skills = [
-  { name: "React", level: 90 },
-  { name: "Python / FastAPI", level: 88 },
-  { name: "LangChain / AI Agents", level: 85 },
-  { name: "Java / Spring", level: 75 },
+export const skillCategories = [
+  {
+    category: "Languages",
+    skills: ["Python", "JavaScript", "Java", "C++", "PHP", "Dart", "SQL", "HTML5", "CSS3"],
+  },
+  {
+    category: "Frameworks & Libraries",
+    skills: ["React", "Angular", "Node.js", "Django", "FastAPI", "Laravel", "Spring MVC", "Bootstrap"],
+  },
+  {
+    category: "AI & ML",
+    skills: ["LangChain", "Gemini API", "Claude API"],
+  },
+  {
+    category: "Tools & DevOps",
+    skills: ["Git", "Docker", "Kubernetes", "MySQL", "PostgreSQL", "Figma"],
+  },
 ];
 
 export const involvements = [

@@ -6,7 +6,7 @@ export const profile = {
   title: "Final Year Software Engineering Student at Universiti Teknologi Malaysia (UTM)",
   tagline: "I build AI systems that solve real problems.",
   bio: "Final-year Software Engineering student at Universiti Teknologi Malaysia, building multi-agent health platforms, autonomous drone systems, and the occasional hackathon-winning prototype.",
-  location: "Kuala Lumpur, Malaysia ↔ Jazan, Saudi Arabia",
+  location: "Johor, Malaysia",
   university: "Universiti Teknologi Malaysia — Class of 2027",
   languages: ["Arabic", "English"],
   status: "Seeking August Internship 2026",

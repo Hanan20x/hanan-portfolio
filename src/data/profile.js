@@ -211,21 +211,26 @@ export const certificates = [
   {
     name: "AWS AI Practitioner Challenge",
     issuer: "Udacity",
+    date: "Mar 2026",
   },
   {
     name: "Generative AI for Everyone",
     issuer: "DeepLearning.AI",
+    date: "Oct 2025",
   },
   {
     name: "Java Programming for Beginners",
     issuer: "IBM",
+    date: "Sep 2025",
   },
   {
     name: "Intermediate Python",
     issuer: "DataCamp",
+    date: "Jun 2026",
   },
   {
     name: "Intermediate Git",
     issuer: "DataCamp",
+    date: "Jun 2026",
   }
 ];

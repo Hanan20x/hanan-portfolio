@@ -104,6 +104,7 @@ export default function Resume() {
             <div className="resume-item" key={cert.name}>
               <div className="resume-item__row">
                 <h3>{cert.name}</h3>
+                {cert.date && <span className="resume-item__date">{cert.date}</span>}
               </div>
               <p className="resume-item__org">{cert.issuer}</p>
             </div>

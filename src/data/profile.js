@@ -197,6 +197,21 @@ export const involvements = [
 
 export const hackathons = [
   {
+    name: "VHACK 2026",
+    result: "Top 20 Finalist",
+    project: "Drone Swarm Management System",
+  },
+  {
+    name: "myAI Future Hackathon",
+    result: "Organizing Team",
+    project: "Promotional design & event coordination",
+  },
+  {
+    name: "Prompt Rush",
+    result: "Organizing Team",
+    project: "AI Development Game Sprint using rapid prototyping and deployment",
+  },
+  {
     name: "UM Technothon",
     result: "Participant",
     project: "Competitive coding and innovation",

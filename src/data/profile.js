@@ -205,10 +205,6 @@ export const hackathons = [
 
 export const certificates = [
   {
-    name: "The Complete Full-Stack Web Development Bootcamp",
-    issuer: "Udemy",
-  },
-  {
     name: "Microsoft Azure AI Fundamentals",
     issuer: "Microsoft",
   },

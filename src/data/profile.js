@@ -9,7 +9,7 @@ export const profile = {
   location: "Kuala Lumpur, Malaysia ↔ Jazan, Saudi Arabia",
   university: "Universiti Teknologi Malaysia — Class of 2027",
   languages: ["Arabic", "English"],
-  status: "Open to internships — Jul/Aug 2026",
+  status: "Seeking August Internship 2026",
   email: "slahhnan040@gmail.com",
   graduateEmail: "hussein.h@graduate.utm.my",
   phone: "+60187782179",

@@ -10,10 +10,12 @@ export const profile = {
   university: "Universiti Teknologi Malaysia — Class of 2027",
   languages: ["Arabic", "English"],
   status: "Open to internships — Jul/Aug 2026",
-  email: "your-email@example.com", // TODO: replace with real email
+  email: "slahhnan040@gmail.com",
+  graduateEmail: "hussein.h@graduate.utm.my",
+  phone: "+60187782179",
   github: "https://github.com/Hanan20x",
   linkedin: "https://linkedin.com/in/hanan-salah",
-  resumeUrl: "/resume.pdf", // TODO: drop your resume PDF into /public as resume.pdf
+  resumeUrl: "/resume.pdf", 
 };
 
 export const projects = [
@@ -195,13 +197,13 @@ export const involvements = [
     org: "ISS-SUDAN",
     role: "Head of Technical Support",
     description: "Led the technical support team for the SUDART event, ensuring seamless operation of all event technologies and sound systems.",
-    image: null,
+    image: "/involvements/sudart.jpg",
   },
   {
     org: "She Plus Tech",
     role: "Member",
     description: "Active member dedicated to fostering community and promoting women in technology.",
-    image: null,
+    image: "/involvements/she-plus-tech.jpg",
   }
 ];
 
@@ -216,4 +218,9 @@ export const hackathons = [
     result: "Organizing Team",
     project: "Promotional design & event coordination",
   },
+  {
+    name: "UM Technothon",
+    result: "Participant",
+    project: "Competitive coding and innovation",
+  }
 ];

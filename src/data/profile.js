@@ -141,6 +141,25 @@ export const skills = [
   { name: "Java / Spring", level: 75 },
 ];
 
+export const skillCategories = [
+  {
+    category: "Languages",
+    skills: ["Python", "JavaScript", "Java", "C++", "PHP", "Dart", "SQL", "HTML5", "CSS3"],
+  },
+  {
+    category: "Frameworks & Libraries",
+    skills: ["React", "Angular", "Node.js", "Django", "FastAPI", "Laravel", "Spring MVC", "Bootstrap"],
+  },
+  {
+    category: "AI & ML",
+    skills: ["LangChain", "Gemini API", "Claude API"],
+  },
+  {
+    category: "Tools & DevOps",
+    skills: ["Git", "Docker", "Kubernetes", "MySQL", "PostgreSQL", "Figma"],
+  },
+];
+
 export const involvements = [
   {
     org: "VHACK Hackathon",

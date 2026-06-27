@@ -209,18 +209,23 @@ export const involvements = [
 
 export const hackathons = [
   {
-    name: "VHACK 2026",
-    result: "Top 20 Finalist",
-    project: "Drone Swarm Management System",
-  },
-  {
-    name: "myAI Future Hackathon",
-    result: "Organizing Team",
-    project: "Promotional design & event coordination",
-  },
-  {
     name: "UM Technothon",
     result: "Participant",
     project: "Competitive coding and innovation",
+  }
+];
+
+export const certificates = [
+  {
+    name: "The Complete Full-Stack Web Development Bootcamp",
+    issuer: "Udemy",
+  },
+  {
+    name: "Java Programming for Beginners",
+    issuer: "Udemy",
+  },
+  {
+    name: "Intermediate Python",
+    issuer: "Udemy",
   }
 ];

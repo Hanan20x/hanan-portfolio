@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { profile, hackathons, involvements } from "../data/profile";
+import { profile, hackathons, involvements, certificates } from "../data/profile";
 import "./Resume.css";
 
 const experience = [
@@ -10,22 +10,16 @@ const experience = [
     desc: "Designing and building a multi-agent health information system for a primary care clinic in Jazan, Saudi Arabia.",
   },
   {
-    role: "Hackathon Finalist",
+    role: "Full-Stack Developer",
     period: "2026",
-    org: "VHACK — Drone Swarm Mgmt.",
-    desc: "Top 20 finalist building a full-stack drone swarm command platform with a hybrid LLM planner.",
+    org: "DHL DAC 3.0 Challenge",
+    desc: "Built an AI-enhanced incident reporting system combining Laravel, React, and UiPath RPA.",
   },
   {
-    role: "Workshop Organizer & Mentor",
-    period: "2026",
-    org: "AIROST × IEEE UTM",
-    desc: "Planned and mentored the 'RAG For Everyone' workshop, building live demo pipelines for attendees.",
-  },
-  {
-    role: "Community Member",
-    period: "Ongoing",
-    org: "GDG on Campus / AIESEC",
-    desc: "Active in UTM's developer and AIESEC communities, plus Sudan-focused tech initiatives.",
+    role: "Perception Module Developer",
+    period: "2025",
+    org: "SpeedTrials2D (RTSE)",
+    desc: "Developed the perception module for a ROS 2-inspired autonomous driving simulator handling lane offset and brightness analysis.",
   },
 ];
 
@@ -112,6 +106,18 @@ export default function Resume() {
                 <span className="resume-item__date">{h.result}</span>
               </div>
               <p className="resume-item__desc">{h.project}</p>
+            </div>
+          ))}
+        </div>
+
+        <div className="resume-block">
+          <h2>Certificates</h2>
+          {certificates.map((cert) => (
+            <div className="resume-item" key={cert.name}>
+              <div className="resume-item__row">
+                <h3>{cert.name}</h3>
+              </div>
+              <p className="resume-item__org">{cert.issuer}</p>
             </div>
           ))}
         </div>

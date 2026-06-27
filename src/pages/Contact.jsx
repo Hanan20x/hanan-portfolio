@@ -3,7 +3,7 @@ import { profile } from "../data/profile";
 import "./Contact.css";
 
 const cards = [
-  { key: "email", label: "Email", value: profile.email, href: `mailto:${profile.email}`, external: false },
+  { key: "email", label: "Personal Email", value: profile.email, href: `mailto:${profile.email}`, external: false },
   { key: "graduate-email", label: "Graduate Email", value: profile.graduateEmail, href: `mailto:${profile.graduateEmail}`, external: false },
   { key: "phone", label: "Phone", value: profile.phone, href: `tel:${profile.phone.replace(/\s+/g, '')}`, external: false },
   { key: "linkedin", label: "LinkedIn", value: "Connect with me →", href: profile.linkedin, external: true },

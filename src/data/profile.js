@@ -143,29 +143,34 @@ export const skills = [
 
 export const involvements = [
   {
-    org: "AIROST",
-    role: "Member / Workshop Organizer",
-    description:
-      "Served as PIC and Mentor for the 'RAG For Everyone' workshop with IEEE UTM — planned the schedule, briefed the speaker, and built live demo pipelines.",
-    image: null,
+    org: "VHACK Hackathon",
+    role: "AIROST",
+    description: "Participated in the Varsity Hackathon (VHACK) representing AIROST.",
+    image: "/involvements/vhack-hackathon.jpg",
   },
   {
-    org: "GDG on Campus UTM",
-    role: "Member",
-    description: "Active member of Google Developer Groups on Campus at UTM.",
-    image: null,
+    org: "my AI Future Hackathon",
+    role: "GDG on Campus UTM",
+    description: "Organized and participated in the my AI Future Hackathon.",
+    image: "/involvements/my-ai-future.jpg",
   },
   {
-    org: "AIESEC",
-    role: "Multiple Roles",
-    description: "Held several roles within AIESEC's UTM chapter.",
-    image: null,
+    org: "RAG For Everyone Workshop",
+    role: "AIROST",
+    description: "Served as PIC and Mentor for the 'RAG For Everyone' workshop — planned the schedule, briefed the speaker, and built live demo pipelines.",
+    image: "/involvements/rag-workshop.jpg",
   },
   {
-    org: "IndabaX Sudan / ISS-SUDAN",
-    role: "Community Member",
-    description: "Maintains community ties supporting Sudanese students and the AI community.",
-    image: null,
+    org: "The Solar Energy Workshop",
+    role: "AIESEC",
+    description: "Supported and participated in The Solar Energy Workshop.",
+    image: "/involvements/solar-energy.jpg",
+  },
+  {
+    org: "Gemini Nexus",
+    role: "GDG",
+    description: "Engaged with the Gemini Nexus: The Agentverse event organized by GDG.",
+    image: "/involvements/gemini-nexus.jpg",
   },
 ];
 

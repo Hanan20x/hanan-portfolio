@@ -8,19 +8,7 @@ const experience = [
     period: "2025 — 2026",
     org: "UTM — HealthPrime",
     desc: "Designing and building a multi-agent health information system for a primary care clinic in Jazan, Saudi Arabia.",
-  },
-  {
-    role: "Full-Stack Developer",
-    period: "2026",
-    org: "DHL DAC 3.0 Challenge",
-    desc: "Built an AI-enhanced incident reporting system combining Laravel, React, and UiPath RPA.",
-  },
-  {
-    role: "Perception Module Developer",
-    period: "2025",
-    org: "SpeedTrials2D (RTSE)",
-    desc: "Developed the perception module for a ROS 2-inspired autonomous driving simulator handling lane offset and brightness analysis.",
-  },
+  }
 ];
 
 export default function Resume() {

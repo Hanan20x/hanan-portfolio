@@ -170,12 +170,6 @@ export const involvements = [
     image: "/involvements/she-plus-tech.jpg",
   },
   {
-    org: "The Institution of Engineers, Malaysia (IEM)",
-    role: "Member (December 2025 - Present)",
-    description: "Active member of IEM.",
-    image: null,
-  },
-  {
     org: "Airost UTM",
     role: "Event Unit Member (January 2026 - June 2026)",
     description: "Participated in events like the Varsity Hackathon (VHACK) and served as PIC & Mentor for the RAG For Everyone Workshop.",
@@ -186,12 +180,6 @@ export const involvements = [
     role: "Creative Marketing Core Team Member (December 2025 - May 2026)",
     description: "Organized and promoted the my AI Future Hackathon and engaged with the Gemini Nexus event.",
     image: "/involvements/my-ai-future.jpg",
-  },
-  {
-    org: "IndabaXsudan",
-    role: "Public Relations Officer (October 2025 - December 2025)",
-    description: "Maintained community ties supporting Sudanese students and the AI community.",
-    image: null,
   },
   {
     org: "AIESEC",

@@ -23,7 +23,7 @@ export default function Resume() {
         <span className="eyebrow">Resume</span>
         <h1 className="resume-hero__title">My work experience</h1>
         <p className="resume-hero__sub">
-          A summary of my experience, projects, and certifications.
+          Skim the highlights of my experience and qualifications below.
         </p>
       </motion.section>
 

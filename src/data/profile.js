@@ -134,23 +134,11 @@ export const projects = [
   },
 ];
 
-export const skillCategories = [
-  {
-    category: "Languages",
-    skills: ["Python", "JavaScript", "Java", "C++", "PHP", "Dart", "SQL", "HTML5", "CSS3"],
-  },
-  {
-    category: "Frameworks & Libraries",
-    skills: ["React", "Angular", "Node.js", "Django", "FastAPI", "Laravel", "Spring MVC", "Bootstrap"],
-  },
-  {
-    category: "AI & ML",
-    skills: ["LangChain", "Gemini API", "Claude API"],
-  },
-  {
-    category: "Tools & DevOps",
-    skills: ["Git", "Docker", "Kubernetes", "MySQL", "PostgreSQL", "Figma"],
-  },
+export const skills = [
+  { name: "React", level: 90 },
+  { name: "Python / FastAPI", level: 88 },
+  { name: "LangChain / AI Agents", level: 85 },
+  { name: "Java / Spring", level: 75 },
 ];
 
 export const involvements = [

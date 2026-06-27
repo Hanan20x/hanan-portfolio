@@ -36,7 +36,12 @@ export default function ProjectDetail() {
         transition={{ duration: 0.5 }}
       >
         {project.video ? (
-          <video src={project.video} controls className="detail__media" />
+          <video
+            src={project.video}
+            controls
+            preload="metadata"
+            className="detail__media"
+          />
         ) : project.image ? (
           <img src={project.image} alt={project.title} className="detail__media" />
         ) : (

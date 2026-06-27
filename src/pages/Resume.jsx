@@ -23,18 +23,8 @@ export default function Resume() {
         <span className="eyebrow">Resume</span>
         <h1 className="resume-hero__title">My work experience</h1>
         <p className="resume-hero__sub">
-          Prefer the full PDF? Grab it below — or skim the highlights here.
+          A summary of my experience, projects, and certifications.
         </p>
-
-        <motion.a
-          href={profile.resumeUrl}
-          download
-          className="btn btn--primary resume-download"
-          whileHover={{ scale: 1.03 }}
-          whileTap={{ scale: 0.98 }}
-        >
-          Download full résumé (PDF) ↓
-        </motion.a>
       </motion.section>
 
       <section className="container experience-grid">

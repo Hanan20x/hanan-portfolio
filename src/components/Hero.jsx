@@ -86,9 +86,6 @@ export default function Hero() {
             <a href="/projects" className="btn btn--primary">
               View my work <span className="btn__arrow">↗</span>
             </a>
-            <a href={profile.resumeUrl} className="btn btn--icon" download aria-label="Download CV">
-              ↓
-            </a>
           </div>
 
           <div className="hero__socials">

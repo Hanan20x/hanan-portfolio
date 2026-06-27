@@ -163,34 +163,46 @@ export const skillCategories = [
 export const involvements = [
   {
     org: "VHACK Hackathon",
-    role: "AIROST",
+    role: "AIROST Event Unit Member",
     description: "Participated in the Varsity Hackathon (VHACK) representing AIROST.",
     image: "/involvements/vhack-hackathon.jpg",
   },
   {
     org: "my AI Future Hackathon",
-    role: "GDG on Campus UTM",
-    description: "Organized and participated in the my AI Future Hackathon.",
+    role: "GDG Creative Marketing Core Team",
+    description: "Organized and promoted the my AI Future Hackathon as a core marketing team member for GDG on Campus UTM.",
     image: "/involvements/my-ai-future.jpg",
   },
   {
     org: "RAG For Everyone Workshop",
-    role: "AIROST",
+    role: "AIROST PIC & Mentor",
     description: "Served as PIC and Mentor for the 'RAG For Everyone' workshop — planned the schedule, briefed the speaker, and built live demo pipelines.",
     image: "/involvements/rag-workshop.jpg",
   },
   {
     org: "The Solar Energy Workshop",
-    role: "AIESEC",
-    description: "Supported and participated in The Solar Energy Workshop.",
+    role: "AIESEC Organizing Committee",
+    description: "Supported The Solar Energy Workshop, drawing on 5 months of experience organizing major events like Echo 7.0 and Leadership Bootcamp 3.0.",
     image: "/involvements/solar-energy.jpg",
   },
   {
     org: "Gemini Nexus",
-    role: "GDG",
+    role: "GDG Member",
     description: "Engaged with the Gemini Nexus: The Agentverse event organized by GDG.",
     image: "/involvements/gemini-nexus.jpg",
   },
+  {
+    org: "ISS-SUDAN",
+    role: "Head of Technical Support",
+    description: "Led the technical support team for the SUDART event, ensuring seamless operation of all event technologies and sound systems.",
+    image: null,
+  },
+  {
+    org: "She Plus Tech",
+    role: "Member",
+    description: "Active member dedicated to fostering community and promoting women in technology.",
+    image: null,
+  }
 ];
 
 export const hackathons = [

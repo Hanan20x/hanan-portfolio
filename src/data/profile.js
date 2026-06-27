@@ -33,8 +33,12 @@ export const projects = [
       "Balancing AI assistance with human-in-the-loop control for clinical safety.",
     ],
     github: "https://github.com/Hanan20x/health-prime",
-    image: null, // TODO: add screenshot or architecture diagram
-    gallery: [], // TODO: add more images/diagrams
+    image: "/projects/healthprime/landing.png",
+    gallery: [
+      "/projects/healthprime/patient-emr.png",
+      "/projects/healthprime/diagnosis-input.png",
+      "/projects/healthprime/ai-diagnostic-assistant.png",
+    ],
     video: null, // TODO: add demo video URL
   },
   {
@@ -124,7 +128,7 @@ export const projects = [
       "Working around GitHub Classroom push restrictions under competition time pressure.",
     ],
     github: "https://github.com/Hanan20x",
-    image: null,
+    image: "/projects/dhl/landing.png",
     gallery: [],
     video: null,
   },

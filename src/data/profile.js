@@ -209,11 +209,27 @@ export const certificates = [
     issuer: "Udemy",
   },
   {
+    name: "Microsoft Azure AI Fundamentals",
+    issuer: "Microsoft",
+  },
+  {
+    name: "AWS AI Practitioner Challenge",
+    issuer: "Udacity",
+  },
+  {
+    name: "Generative AI for Everyone",
+    issuer: "DeepLearning.AI",
+  },
+  {
     name: "Java Programming for Beginners",
-    issuer: "Udemy",
+    issuer: "IBM",
   },
   {
     name: "Intermediate Python",
-    issuer: "Udemy",
+    issuer: "DataCamp",
+  },
+  {
+    name: "Intermediate Git",
+    issuer: "DataCamp",
   }
 ];

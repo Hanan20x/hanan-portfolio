@@ -66,13 +66,17 @@ export const projects = [
   {
     id: "mindbloom",
     title: "MindBloom",
-    badge: null,
-    summary: "A web application built with Spring MVC and Thymeleaf.",
+    badge: "Mental Wellness Platform",
+    summary: "A comprehensive mental wellness web application built with Spring MVC and Thymeleaf, featuring counselor-patient dashboards.",
     description:
-      "MindBloom is a web application focused on mental wellness support, built using a classic server-rendered Java stack.",
-    role: "Developer",
-    tags: ["Spring MVC", "Thymeleaf", "Java"],
-    challenges: [],
+      "MindBloom is a comprehensive mental wellness web application built on the Java Spring MVC framework. It features secure user authentication, role-based dashboards for counselors and patients, and session scheduling. The frontend leverages Thymeleaf and Bootstrap for a responsive, server-rendered interface. The data layer uses Hibernate/JPA to manage complex relational mappings between counselors, patients, and appointment histories.",
+    role: "Full-stack Java Developer",
+    tags: ["Spring MVC", "Thymeleaf", "Java", "Hibernate", "MySQL"],
+    challenges: [
+      "Implementing robust role-based access control using Spring Security for counselors vs. patients.",
+      "Designing complex relational database schemas to handle appointment scheduling and history.",
+      "Ensuring a seamless, accessible UI using server-side rendering with Thymeleaf."
+    ],
     github: "https://github.com/Hanan20x",
     image: "/projects/mindbloom/login-page.png",
     gallery: ["/projects/mindbloom/counselor-dashboard.png"],
@@ -81,13 +85,17 @@ export const projects = [
   {
     id: "learnloop",
     title: "LearnLoop",
-    badge: null,
-    summary: "A cross-platform learning companion app built with Flutter.",
+    badge: "Cross-Platform App",
+    summary: "A cross-platform mobile learning companion built with Flutter, designed to help students track and reinforce study habits.",
     description:
-      "LearnLoop is a mobile learning app built with Flutter and Dart, designed to help students track and reinforce study habits.",
-    role: "Developer",
-    tags: ["Flutter", "Dart"],
-    challenges: [],
+      "LearnLoop is a cross-platform mobile learning companion engineered with Flutter and Dart. Designed to enhance student productivity, it integrates spaced-repetition algorithms, daily goal tracking, and gamified study habits. The app utilizes an offline-first architecture with local SQLite storage and leverages the Provider pattern for robust state management.",
+    role: "Mobile App Developer",
+    tags: ["Flutter", "Dart", "SQLite", "Provider"],
+    challenges: [
+      "Maintaining smooth 60fps UI animations across both iOS and lower-end Android devices.",
+      "Implementing an offline-first data sync architecture using SQLite.",
+      "Designing an intuitive, gamified user experience that encourages daily retention."
+    ],
     github: "https://github.com/Hanan20x",
     image: "/projects/learnloop/poster.png",
     gallery: [],
@@ -150,11 +158,15 @@ export const skillCategories = [
   },
   {
     category: "Frameworks & Libraries",
-    skills: ["React", "Angular", "Node.js", "Django", "FastAPI", "Laravel", "Spring MVC", "Bootstrap"],
+    skills: ["React", "Flutter", "Angular", "Node.js", "Django", "FastAPI", "Laravel", "Spring MVC", "Bootstrap"],
   },
   {
     category: "AI & ML",
-    skills: ["LangChain", "Gemini API", "Claude API"],
+    skills: ["LangChain", "Machine Learning Concepts", "Prompt Engineering"],
+  },
+  {
+    category: "AI Agents & Automation",
+    skills: ["AI Agents", "Gemini API", "Claude API", "MCP", "Zapier", "n8n"],
   },
   {
     category: "Tools & DevOps",

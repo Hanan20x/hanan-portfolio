@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { profile } from "../data/profile";
 import "./Hero.css";
@@ -83,9 +84,9 @@ export default function Hero() {
           </p>
 
           <div className="hero__actions">
-            <a href="/projects" className="btn btn--primary">
+            <Link to="/projects" className="btn btn--primary">
               View my work <span className="btn__arrow">↗</span>
-            </a>
+            </Link>
           </div>
 
           <div className="hero__socials">

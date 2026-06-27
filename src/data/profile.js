@@ -203,18 +203,18 @@ export const hackathons = [
   },
   {
     name: "myAI Future Hackathon",
-    result: "Organizing Team",
+    result: "Creative Marketing Team Member",
     project: "Promotional design & event coordination",
   },
   {
     name: "Prompt Rush",
-    result: "Organizing Team",
+    result: "Creative Marketing Team Member",
     project: "AI Development Game Sprint using rapid prototyping and deployment",
   },
   {
     name: "UM Technothon",
     result: "Participant",
-    project: "Competitive coding and innovation",
+    project: "Proposed FloodSafe, Real-Time Flood Disaster Management System",
   }
 ];
 
